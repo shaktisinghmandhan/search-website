@@ -1,4 +1,4 @@
-.hcfe .search_container {
+.hcfe .search-container {
     background-image: url(https://ssl.gstatic.com/support/content/images/static/homepage_header_background.svg);
     background-position: 50%;
     background-repeat: no-repeat;
@@ -6,7 +6,7 @@
     margin-top: 1.5rem;
     text-shadow: 0 0 black;
 }
-.hcfe .search_greeting {
+.hcfe .search-greeting {
     font-size: 2rem;
     line-height: 2.5rem;
     margin-bottom: 1.625rem;
@@ -15,24 +15,24 @@
     font-weight: 400;
     text-align: center;
 }
-.search_greeting_logo-container {
+.search-greeting-logo-container {
     height: 3.5rem;
     margin: 0 auto 1.125rem auto;
     padding: .5rem;
     width: 3.5rem;
 }
-.search_greeting_logo {
+.search-greeting-logo {
     height: 2.5rem;
     width: 2.5rem;
 }
 
-.hcfe .search_form {
+.hcfe .search-form {
     margin: 0 auto;
     padding: 0 0 2.5rem;
     width: 32.5rem;
 }
 
-.hcfe .search_input {
+.hcfe .search-input {
     background-color: #ffffff;
     border: none;
     border-radius: .5rem;
@@ -45,4 +45,134 @@
     padding: 0 2.5rem 0 4.5rem;
     width: 100%;
     -webkit-appearance: none;
+}
+.hcfe-content {
+    position: relative;
+}
+
+.primary-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: none;
+}
+
+.page-width-container {
+    box-sizing: border-box;
+    margin: 0;
+    max-width: 75.125rem;
+    padding: 0 1rem;
+    width: 50%;
+}
+
+.main-content {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.page {
+    background-color: transparent;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.homepage-heading {
+    align-items: baseline;
+    flex-direction: column;
+    padding: 3rem 1.5rem .5rem;
+    display: flex;
+    font-size: .875rem;
+    font-weight: 500;
+}
+
+.homepage-heading-column {
+    flex-direction: column;
+}
+
+
+h2.homepage-heading-title {
+    flex: 1;
+    font-family: 'Google Sans', Roboto, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    margin: 0;
+}
+
+.homepage-card {
+    margin: 0;
+    padding: 0;
+}
+
+.material-card {
+    background: #ffffff;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.thread-list-thread {
+    border-left: 0;
+    min-height: auto;
+    padding: 1rem 1.5rem 1rem 4rem;
+}
+
+.thread-list-thread {
+    border-bottom: .0625rem solid #dadce0;
+    cursor: pointer;
+    display: block;
+    position: relative;
+}
+
+.thread-list-thread-top-row {
+    display: flex;
+}
+
+.thread-list-thread-title {
+    flex: 1;
+    font-size: 1.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #3c4043;
+    font-weight: 500;
+}
+
+.thread-list-thread-bottom-row {
+    display: flex;
+    margin-top: .25rem;
+}
+
+.thread-list-thread-snippet {
+    color: #80868b;
+    display: block;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.thread-list-thread-counts {
+    padding-left: 3rem;
+}
+
+.thread-list-counts {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 0;
+}
+
+.thread-list-counts-count {
+    margin: 0 0 0 .75rem;
+    color: #80868b;
+    font-size: .75rem;
+    white-space: nowrap;
 }
