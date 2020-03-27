@@ -176,3 +176,44 @@ h2.homepage-heading-title {
     font-size: .75rem;
     white-space: nowrap;
 }
+
+.homepage-categories {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.homepage-category-card-container:nth-child(odd) {
+    padding-right: .5rem;
+}
+
+.homepage-category-card-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.homepage-category-card {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem 0 1.5rem;
+    width: 100%;
+    padding: 0;
+}
+
+h3.homepage-category-card-title {
+    color: #202124;
+    font-family: 'Google Sans',Roboto,sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    margin: 0;
+    padding: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.homepage-category-card-thread {
+    border-bottom: .0625rem solid #dadce0;
+    border-top: 0;
+}
